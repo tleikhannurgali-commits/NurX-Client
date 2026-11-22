@@ -33,7 +33,7 @@ public final class HudOverlay {
             c.fill(8, 8, 118, 30, PANEL);
             c.fill(8, 8, 11, 30, color);
             c.drawTextWithShadow(f, "NURX", 17, 13, color);
-            c.drawTextWithShadow(f, "| " + MinecraftClient.getCurrentFps() + " fps", 54, 13, WHITE);
+            c.drawTextWithShadow(f, "| " + mc.getCurrentFps() + " fps", 54, 13, WHITE);
         }
         if (NurXClient.mod("ExpeditionHUD").enabled) {
             Expedition.Spot nearest = Expedition.nearest(mc);
