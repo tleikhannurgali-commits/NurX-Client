@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "nurx",
+  "version": "${version}",
+  "name": "NurX Client",
+  "description": "An original Fabric exploration and PvP utility client with configurable HUD, modules, keybinds and ClickGUI.",
+  "authors": ["NurX project"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.nurx.client.NurXClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
